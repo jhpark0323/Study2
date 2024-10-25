@@ -1,0 +1,8 @@
+고양이와 개는 몇 마리 있을까
+-- 코드를 입력하세요
+SELECT ANIMAL_TYPE, count(*) as count
+FROM ANIMAL_INS 
+GROUP BY ANIMAL_TYPE
+HAVING ANIMAL_TYPE = 'Cat' OR
+        ANIMAL_TYPE = 'Dog'
+ORDER BY ANIMAL_TYPE
