@@ -1,0 +1,1 @@
+print('330', 'thanfdml', sep='\n')
